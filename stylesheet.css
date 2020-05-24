@@ -1,0 +1,242 @@
+/* BODY */
+
+body {
+    background: rgba(255, 255, 255, 0.89);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* HEADER */
+header {
+    background:black; 
+    background-image: url("images/City.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    padding: 0px;
+    padding-top: 50px;
+    height: 400px;
+    text-align: center;
+    margin-left: 0px;
+    }
+
+h1 {
+    text-align: left;
+    font-weight: lighter;
+    margin-left: 5%;
+    background-color: rgb(2, 2, 71);
+    color: white;
+    opacity: 70%;
+    box-shadow: 0px 0px 5px navy;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+/* NAVIGATION*/
+nav ul {
+    margin-right: 0px;
+    padding: 0;
+    list-style-type: none;
+    background-color: black;
+    opacity: 80%;
+    font-weight: lighter;
+    height: 8%;
+    width: unset;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgb(7, 7, 58);
+
+    }
+
+nav li {
+    display: inline-block;
+    background-color:none;
+    height: 5%;
+    padding-left: 2%;
+    padding-right: 5%;
+    margin-bottom: 2%;
+    }
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 0px;
+    text-decoration: none;
+    font-size: larger;
+}
+a {
+    text-decoration: none;
+    font-size: large;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    }
+
+/* HEADER LOGO */
+header h1 {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    text-align: left;
+    margin-right: 100px;
+    margin-left: 40px;
+    font-weight: lighter;
+    }
+
+/* Feature Pictures*/
+.features, .experience.volunteer {
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    background-color: white;
+    }
+
+.features figure, .experience.volunteer figure {
+    width: auto;
+    text-align: center;
+    margin: auto;
+    font-size: medium;;
+    padding: 0px;
+    }
+
+.features figure img, .experience.volunteer img {
+    height: 275px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px gray;
+    margin-bottom: 20px;
+}
+
+.experience.volunteer img {
+    height: 275px;
+}
+
+.features figcaption {
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.features figcaption a {
+    color: black;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    background: lavender;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 12px;
+}
+
+footer div {
+    margin: auto;
+}
+
+/* EXPERIENCE SECTIONS */
+
+.experience {
+    list-style: none;
+}
+
+ul.experience.professional li { 
+    margin:20px 50px 50px 50px; }
+
+ul.experience li {
+	display:block;
+	text-decoration:none;
+    color:#000;
+    list-style: none;
+}
+
+ul.experience.professional li img, ul.experience.professional li span {
+	display:inline-block;
+    vertical-align:middle;
+}
+
+ul.experience.professional li span {
+    text-align: left;
+    margin-left: 4%;
+    width: 45%;
+}
+
+.experience li img {
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px gray;
+    margin-left: 10%;
+}
+
+/* ACADEMICS */
+
+strong.academics {
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* CONTACT SECTIONS */
+
+.contact li img{
+    width: 100px;
+    height:100px;
+    zoom: 120%;
+    border-radius: 10px;
+}
+
+a {
+    color:black;
+}
+
+.aboutme {
+    background-color: rgb(2, 2, 71);
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    opacity: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px black;
+}
+
+.aboutme h1{
+    font-weight: lighter;
+    font-size: 300%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    -webkit-font-smoothing: antialiased;
+}
+.aboutme div{
+    font-weight: 50;
+    font-size: larger;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    line-height: 130%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.skills h1{
+    margin-bottom: 2%;
+    font-size: 200%;
+}
+.skills li{
+    margin-left: 10%;
+    font-size: large;
+    margin-bottom: 2%;
+}
