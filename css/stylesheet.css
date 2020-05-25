@@ -11,7 +11,7 @@ body {
 
 /* HEADER */
 header {
-    background-color: black; 
+    background: url("images/City.jpeg") no-repeat center top fixed; 
     background-size: 100%;
     background-position: bottom;
     padding: 0px;
