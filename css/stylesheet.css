@@ -11,8 +11,7 @@ body {
 
 /* HEADER */
 header {
-    background-color: black;
-    background: url("https://github.com/emilymendelson/emilymendelson.github.io/blob/master/images/City.jpeg") no-repeat center center fixed; 
+    background-color: black; 
     background-size: 100%;
     background-position: bottom;
     padding: 0px;
